@@ -1,0 +1,4 @@
+2022-04-02 13:07:03,490 INFO  [Log] Search_Product()PASSED 
+2022-04-02 13:07:10,623 INFO  [Log] Select_Product()PASSED 
+2022-04-02 13:07:13,269 INFO  [Log] Add_To_Card()PASSED 
+2022-04-02 13:07:14,083 INFO  [Log] Go_To_Card()PASSED 

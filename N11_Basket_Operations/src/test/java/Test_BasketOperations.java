@@ -1,4 +1,5 @@
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 
@@ -11,6 +12,7 @@ public class Test_BasketOperations extends BaseTest {
 
     @Test
     @Order(1)
+//  @Disabled("Şuradaki bug yüzünden disable durumunda demek için")
     public void Search_Product() {
         HomePage = new HomePage(Driver);
         HomePage.SearchProduct.Search("Laptop");
@@ -32,8 +34,8 @@ public class Test_BasketOperations extends BaseTest {
     @Order(3)
     public void Add_To_Card() {
         ProductDetailPage.AddToCard();
-//        Assertions.assertTrue(ProductDetailPage.IsAddToCard(),
-//                "Card wasn't Increased");
+        //Assertions.assertTrue(ProductDetailPage.IsAddToCard(),
+        //"Card wasn't Increased");
     }
 
     @Test
@@ -41,8 +43,8 @@ public class Test_BasketOperations extends BaseTest {
     public void Go_To_Card() {
         CardPage = new CardPage(Driver);
         CardPage.RemoveProduct();
-//        Assertions.assertTrue(CardPage.IsCheckIfAdded(),
-//                "Not Added");
+        //Assertions.assertTrue(CardPage.IsCheckIfAdded(),
+        //"Not Added");
     }
 
 
