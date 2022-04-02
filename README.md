@@ -4,7 +4,7 @@
  - Selenium
  - Java
  - Web Driver Manager
- - junit
+ - junit 5
  - log4j
  ---
   
